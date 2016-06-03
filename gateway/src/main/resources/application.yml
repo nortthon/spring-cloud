@@ -2,10 +2,6 @@ server.port: 8080
 
 security.ignored: /security/**
 
-spring:
-  application:
-    name: discovery
-
 eureka:
   client:
     serviceUrl:

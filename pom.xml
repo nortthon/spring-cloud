@@ -12,6 +12,7 @@
         <module>gateway</module>
         <module>any-application</module>
         <module>oauth-server</module>
+        <module>configserver</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -29,6 +30,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
