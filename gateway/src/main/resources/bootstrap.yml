@@ -1,5 +1,5 @@
 spring:
   application:
-    name: discovery
+    name: gateway
   cloud:
     config.uri: http://localhost:8888
